@@ -44,7 +44,7 @@ const discountForOver65 = (0,2);
 let messaggio = "Il costo del biglietto è: ";
 console.log(messaggio);
 
-/*if ((numeroKm && !isNaN(numeroKm)) && (etaUtente && !isNaN(numeroKm))){
+if ((numeroKm && !isNaN(numeroKm)) && (etaUtente && !isNaN(numeroKm))){
     if (etaUtente < 18) {
         messaggio += (costoBiglietto * discountForMinors).toFixed;
         console.log(costoBiglietto);
