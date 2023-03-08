@@ -46,7 +46,7 @@ console.log(messaggio);
 
 if ((numeroKm && !isNaN(numeroKm)) && (etaUtente && !isNaN(numeroKm))){
     if (etaUtente < 18) {
-        messaggio += (costoBiglietto * discountForMinors).toFixed;
+        messaggio += (costoBiglietto * discountForMinors).toFixed();
         console.log(costoBiglietto);
 
     
@@ -57,7 +57,7 @@ if ((numeroKm && !isNaN(numeroKm)) && (etaUtente && !isNaN(numeroKm))){
     
     } else (etaUtente < 18)  
     {
-        messaggio += (costoBiglietto * discountForOver65).toFixed;
+        messaggio += (costoBiglietto * discountForOver65).toFixed();
         console.log(costoBiglietto);
     }
 
